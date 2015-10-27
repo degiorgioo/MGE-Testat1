@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/drawerHomeBtn"
+            android:checked="false"
+            android:title="Home"
+            android:icon="@drawable/home_icon"
+            />
+
+        <item
+            android:id="@+id/drawerHomeRegisterBtn"
+            android:checked="false"
+            android:title="Register"
+            android:icon="@drawable/register_icon"
+            />
+        <item
+            android:id="@+id/drawerHomeLoginBtn"
+            android:checked="false"
+            android:title="Login"
+            android:icon="@drawable/lock_closed_icon"
+            />
+
+        <item
+            android:id="@+id/drawerHomeLoansBtn"
+            android:checked="false"
+            android:title="Loans"
+            android:icon="@drawable/all_reservations_icon"
+            />
+        <item
+            android:id="@+id/drawerHomeReservationsBtn"
+            android:checked="false"
+            android:title="My reservations"
+            android:icon="@drawable/myreservation_icon"
+            />
+
+        <item
+            android:id="@+id/drawerHomeSettingsBtn"
+            android:checked="false"
+            android:title="Settings"
+            android:icon="@drawable/settings_icon"
+            />
+        <item
+            android:id="@+id/drawerHomeLogoutBtn"
+            android:checked="false"
+            android:title="Logout"
+            android:icon="@drawable/lock_open_icon"
+            />
+    </group>
+</menu>

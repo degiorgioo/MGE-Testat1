@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ch.hsr.mge.drawerandtoolbar.BlankFragment">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonLogin"
+        android:src="@drawable/lock_closed_icon"
+        android:layout_above="@+id/imageButtonAllReservations"
+        android:layout_toLeftOf="@+id/imageButtonSettings"
+        android:layout_toStartOf="@+id/imageButtonSettings" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonSettings"
+        android:src="@drawable/settings_icon"
+        android:layout_above="@+id/imageButtonAddReservation"
+        android:layout_toRightOf="@+id/imageButtonAllReservations"
+        android:layout_toEndOf="@+id/imageButtonAllReservations" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonAddReservation"
+        android:src="@drawable/new_reserveration_icon"
+
+        android:layout_alignTop="@+id/imageButtonAllReservations"
+        android:layout_toRightOf="@+id/imageButtonAllReservations"
+        android:layout_toEndOf="@+id/imageButtonAllReservations" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonAllReservations"
+        android:src="@drawable/all_reservations_icon_2"
+        android:layout_marginLeft="75dp"
+        android:layout_marginStart="75dp"
+
+        android:layout_marginBottom="195dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome"
+        android:id="@+id/textView6"
+        android:layout_marginTop="57dp"
+        android:layout_below="@+id/imageButtonAddReservation"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
